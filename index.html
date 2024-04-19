@@ -19,13 +19,84 @@
                 </div>
             </div>
             <div id="navbar-line"></div>
-            <div>home la scuola</div>
+            <div id="selectors-container">
+                <a href="index.html">HOME</a>
+                <a href="school.html">LA SCUOLA</a>
+                <a href="https://www.google.it">CORSI</a>
+                <a href="https://www.google.it">DOCENTI</a>
+                <a href="https://www.google.it">INFO e CONTATTI</a>
+            </div>
         </header>
         <div id="img-container">
             <img src="./assets/main_img.jpeg"/>
         </div>
     </div>
-    <div>about us</div>
-    <footer>footer</footer>
+    <div>
+        <div id="about-us">
+            <p id="about-us-txt" style="flex: 30%">
+                ABOUT <br> US
+            </p>
+            <p style="flex: 70%">
+                Benvenuti a Danza Studio dove la passione prende vita attraverso il movimento. <br>
+                Offriamo un ambiente accogliente e stimolante in cui ballerini di tutte le età e livelli di esperienza possono esplorare il mondo della danza. <br>
+                Con insegnanti esperti, lezioni coinvolgenti e opportunità di esibizione, ci impegniamo a coltivare il talento e la creatività di ogni studente. <br>
+                Per scoprire i corsi <a href="https://www.google.it">clicca qui</a>. 
+            </p>
+        </div>
+        <form class="form-container">
+            <p style="color:black" id="form-title">RICHIESTA DI PARTECIPAZIONE A UNA PROVA GRATUITA</p>
+            <p style="color:black" id="form-text">Ci fa piacere sapere che sei interessato a partecipare a una delle nostre lezioni di danza!
+            Compila il modulo sottostante per prenotare la tua partecipazione gratuita e unisciti a noi per un esperienza emozionante 
+            e coinvolgente nel mondo della danza</p>
+            <div style="color:black" class="name-email-container"> 
+                <div>
+                    <label class="label" style="color:black">Nome e cognome</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label class="label" style="color:black">Email</label>
+                    <input type="email"/>
+                </div>
+            </div>
+            <div style="color:black" class="cell-course-send-container">
+                <div class="name-email-container">
+                    <div>
+                        <label class="label" style="color:black">Telefono</label>
+                        <input type="number"/>
+                    </div>
+                    <div>
+                        <label class="label" style="color:black">Corso</label>
+                        <input type="text"/>
+                    </div>
+                </div>
+                <button id="send-form-btn" type="submit">INVIA</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="info-container">
+            <div>
+                <img style="height: 5rem" src="./assets/logo.jpeg"/>
+                <h5>Monselice PD</h5>
+                <h6>Via XXVIII Aprile, 20, 35043</h6>
+            </div>
+            <div class="contact-container">
+                <div>
+                    <h5>SEGRETERIA</h5>
+                    <h6>Tutte le mattine <br> su appuntamento</h6>
+                    <h6>Da Lunedi' a Venerdi': <br> 16.00 - 20.00</h6>
+                </div>
+                <div>
+                    <h5>CONTATTI</h5>
+                    <h6>TEL 0429781261</h6>
+                    <h6>MAIL danzastudio@gmail.com</h6>
+                    <div class="icons-container">
+                        <a href="https://www.instagram.com/danzastudiomonselice?igsh=MWdmMzg4NWZ6MG5paQ%3D%3D"><img style="height:1.5rem" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"/></a>
+                        <a href="https://www.facebook.com/danzastudiomonselice/"><img style="height:1.5rem" src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
