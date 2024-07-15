@@ -1,0 +1,18 @@
+.card {
+    border: black;
+    gap: 2rem;
+}
+
+.card-body, .card {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.card-group {
+    margin-top: 6rem;
+    gap: 4rem;
+}
