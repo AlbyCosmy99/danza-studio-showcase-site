@@ -73,7 +73,6 @@ a:hover {
 }
 
 #about-us {
-    display: flex;
     background-color: black;
     color: white;
     min-height: 12rem;
@@ -158,6 +157,14 @@ footer {
     flex: 70%;
 }
 
+a {
+    color: white;
+}
+
+.dropdown {
+    display: none;
+}
+
 @media screen and (max-width: 2300px){
     #top {
         min-height: auto;
@@ -166,5 +173,23 @@ footer {
     .benvenuto {
         margin-bottom: 1rem;
         margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .dropdown {
+        display:  block;
+    }
+    
+    #selectors-container {
+        display: none;
+    }
+    
+    #search {
+        display: none;
+    }
+
+    #about-us-txt {
+        text-align: center;
     }
 }
