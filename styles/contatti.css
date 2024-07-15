@@ -1,0 +1,27 @@
+img {
+    margin-right: 3rem;
+}
+
+.info {
+    margin: 1.2rem;
+    margin-left: 3rem;
+}
+
+.info-card {
+    margin-bottom: 1.5rem;
+}
+
+.contatti-welcome {
+    margin-right: 20rem; 
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 2300px){
+    #school-text {
+        text-align: center;
+    }
+    .contatti-welcome {
+        margin-right: 0; 
+
+    }
+}
