@@ -230,6 +230,6 @@ a {
     }
 
     .card {
-        margin-left: 2rem;
+        margin-left: 2rem !important;
     }
 }
