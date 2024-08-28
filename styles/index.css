@@ -225,4 +225,7 @@ a {
         flex-direction: column;
         gap: 0;
     }
+    .custom-sm-order-2 {
+        order: 2;
+    }
 }
