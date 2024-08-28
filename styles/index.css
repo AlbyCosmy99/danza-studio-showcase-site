@@ -232,4 +232,7 @@ a {
     .card {
         margin-left: 2rem !important;
     }
+    .icons-container {
+        margin-top: 0;
+    }
 }
