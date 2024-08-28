@@ -1,0 +1,12 @@
+.bottoneDropdown, .btn:hover, btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: white;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-item {
+    color: white;
+}

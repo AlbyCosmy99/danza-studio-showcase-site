@@ -4,7 +4,6 @@ img {
 
 .info {
     margin: 1.2rem;
-    margin-left: 3rem;
 }
 
 .info-card {
@@ -16,12 +15,28 @@ img {
     margin-bottom: 2rem;
 }
 
+.card-img-top {
+    width: 18rem;
+    height: 18rem;
+    margin: 0;
+}
+
 @media screen and (max-width: 2300px){
     #school-text {
         text-align: center;
     }
     .contatti-welcome {
         margin-right: 0; 
+    }
+}
 
+@media screen and (min-width: 600px){
+    .card-img-top {
+        width: 25rem;
+        height: 25rem;
+        margin-right: 5rem;
+    }
+    .info{
+        margin-left: 3rem;
     }
 }
