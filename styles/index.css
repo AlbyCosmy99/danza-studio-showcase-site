@@ -10,6 +10,10 @@
     background-color: black;
 }
 
+.benvenuto{
+    margin: 1rem;
+}
+
 #navbar-line {
     border: 1px solid white;
     margin-top: 1rem;
@@ -94,7 +98,6 @@ a:hover {
 .label {
     display: block;
     margin-bottom: 0.5rem;
-    margin-top: 1rem;
 }
 
 .name-email-container {
@@ -170,10 +173,10 @@ a {
         min-height: auto;
         background-color: black; 
     }
-    .benvenuto {
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-    }
+}
+
+#danza-img {
+    width: 100%;
 }
 
 @media screen and (max-width: 500px){
@@ -191,5 +194,21 @@ a {
 
     #about-us-txt {
         text-align: center;
+    }
+    .info-container{
+        flex-direction: column;
+        gap:1rem;
+    }
+    .cell-course-send-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #send-form-btn {
+        margin-right: 0.8rem;
+        align-self: self-start;
+    }
+    .name-email-container {
+        flex-direction: column;
+        gap: 0;
     }
 }
