@@ -92,6 +92,12 @@ input {
     .input-space-left, .input-space-right, .card-text {
         margin: 0;
     }
+    .card-text {
+        margin-bottom: 2rem;
+    }
+    .nome {
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 750px) {
