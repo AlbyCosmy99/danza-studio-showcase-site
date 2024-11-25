@@ -119,6 +119,9 @@ input {
     .card-text {
         margin: 0
     }
+    .card-body {
+        margin-left: 0;
+    }
 }
 
 @media screen and (min-width: 1000px) {
