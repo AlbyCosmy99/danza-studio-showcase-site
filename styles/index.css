@@ -162,7 +162,7 @@ footer {
 }
 
 .icons-container {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 
@@ -238,9 +238,6 @@ a {
 
     .card {
         margin-left: 2rem !important;
-    }
-    .icons-container {
-        margin-top: 0;
     }
 }
 
