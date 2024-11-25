@@ -91,7 +91,7 @@ input {
     flex-direction: column;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
     .input-space-left, .input-space-right, .card-text {
         margin: 0;
     }
