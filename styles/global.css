@@ -95,6 +95,9 @@ input {
     .input-space-left, .input-space-right, .card-text {
         margin: 0;
     }
+    .input-space-right {
+        margin-top: 0.5rem;
+    }
     .card-text {
         margin-bottom: 2rem;
     }
