@@ -12,6 +12,8 @@
 
 .benvenuto{
     margin: 1rem;
+    padding-bottom: 1rem;
+    flex: 70%;
 }
 
 #navbar-line {
@@ -168,10 +170,6 @@ footer {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-right:72rem;
-}
-
-.benvenuto {
-    flex: 70%;
 }
 
 a {
