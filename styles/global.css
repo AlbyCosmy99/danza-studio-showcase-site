@@ -115,6 +115,12 @@ input {
     }
 }
 
+@media screen and (max-width: 750px) {
+    .card-text {
+        margin: 0
+    }
+}
+
 @media screen and (min-width: 1000px) {
     .flex-lg-row {
         flex-direction: row;
