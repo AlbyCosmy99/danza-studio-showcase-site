@@ -134,6 +134,7 @@ a:hover {
 .cell-course-send-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 #form-title, #form-text {
