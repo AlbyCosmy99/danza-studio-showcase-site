@@ -20,21 +20,17 @@
                 </div>
             </div>
             <div id="navbar-line"></div>
-            <div class="flex-center">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle bottoneDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Sezioni
-                    </a>                
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="index.html">HOME</a></li>
-                      <li><a class="dropdown-item" href="school.html">LA SCUOLA</a></li>
-                      <li><a class="dropdown-item" href="corsi.html">CORSI</a></li>
-                      <li><a class="dropdown-item" href="docenti.html">DOCENTI</a></li>
-                      <li><a class="dropdown-item" href="contatti.html">INFO e CONTATTI</a></li>
-                    </ul>
-                </div>
+            <div class="flex-center" id="mobile-nav">
+                <div class="menu-toggle mobile-nav-btn" onclick="toggleMenu()">Sezioni</div>
+                <nav class="navbar selectors-container">
+                    <a href="index.html">HOME</a>
+                    <a href="school.html">LA SCUOLA</a>
+                    <a href="corsi.html">CORSI</a>
+                    <a href="docenti.html">DOCENTI</a>
+                    <a href="contatti.html">INFO e CONTATTI</a>
+                </nav>
             </div>
-            <div id="selectors-container">
+            <div class="selectors-container" id="nav">
                 <a href="index.html">HOME</a>
                 <a href="school.html">LA SCUOLA</a>
                 <a href="corsi.html">CORSI</a>
@@ -113,5 +109,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+    <script>
+        document.addEventListener('click', (e) => {
+            const navbar = document.querySelector('.navbar');
+            const toggle = document.querySelector('.menu-toggle')
+            if(e.target != toggle && !navbar.contains(e.target)) {
+                navbar.classList.remove('active');
+            }
+        })
+    </script>
 </body>
 </html>

@@ -3,3 +3,88 @@
     justify-content: center;
     align-items: center;
 }
+
+.navbar {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    top: 130px;
+    border: 1px solid white;
+    background-color: black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.navbar.active {
+    display: flex;
+}
+
+#nav {
+    display: flex;
+}
+
+#mobile-nav {
+    display: none;
+}
+
+.mobile-nav-btn {
+    background-color: white;
+    color: black;
+    padding: 0.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    #mobile-nav {
+        display: flex;
+    }
+    #nav {
+        display: none;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 750px) {
+    .flex-md-row {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .flex-lg-row {
+        flex-direction: row;
+    }
+    .margin-lg {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+
+.flex-md-row {
+    flex-direction: row;
+}
+
