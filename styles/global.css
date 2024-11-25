@@ -96,3 +96,7 @@ input {
     color: black;
 }
 
+.card-text {
+    margin: 1rem;
+}
+
