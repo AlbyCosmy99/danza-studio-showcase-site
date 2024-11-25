@@ -55,9 +55,7 @@
     display: flex;
 }
 
-.flex-column {
-    flex-direction: column;
-}
+
 
 .justify-content-evenly {
     justify-content: space-evenly;
@@ -86,6 +84,10 @@ input {
     .flex-md-row {
         flex-direction: row;
     }
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 @media screen and (max-width: 500px) {
