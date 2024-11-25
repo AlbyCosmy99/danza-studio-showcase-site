@@ -235,3 +235,9 @@ a {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 700px) {
+    #danza-img {
+        height: 18rem;
+    }
+}
