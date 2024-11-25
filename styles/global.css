@@ -100,6 +100,13 @@ input {
     .nome {
         margin-bottom: 1rem;
     }
+    .card-body {
+        margin-top: 2rem;
+    }
+
+    .card-body h2 {
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 750px) {
