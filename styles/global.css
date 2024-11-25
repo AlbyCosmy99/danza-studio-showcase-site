@@ -71,7 +71,7 @@
     .flex-md-row {
         flex-direction: row;
     }
-    .input-space-left, .input-space-right {
+    .input-space-left, .input-space-right, .card-text {
         margin: 0;
     }
 }
