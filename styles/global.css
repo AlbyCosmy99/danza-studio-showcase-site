@@ -66,13 +66,25 @@
 .justify-content-between {
     justify-content: space-between;
 }
+.flex-md-row {
+    flex-direction: row;
+}
+
+.nome {
+    margin-top: 1rem;
+}
+
+input {
+    color: black;
+}
+
+.card-text {
+    margin: 1rem;
+}
 
 @media screen and (min-width: 500px) {
     .flex-md-row {
         flex-direction: row;
-    }
-    .input-space-left, .input-space-right, .card-text {
-        margin: 0;
     }
 }
 
@@ -96,22 +108,5 @@
         margin: 0;
         margin-bottom: 1rem;
     }
-}
-
-
-.flex-md-row {
-    flex-direction: row;
-}
-
-.nome {
-    margin-top: 1rem;
-}
-
-input {
-    color: black;
-}
-
-.card-text {
-    margin: 1rem;
 }
 
