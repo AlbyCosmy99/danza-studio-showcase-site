@@ -1,10 +1,12 @@
 .card {
     border: black;
+    margin-top: 1rem;
 }
 
 .card-body, .card {
     background-color: black;
     margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 h2 {
