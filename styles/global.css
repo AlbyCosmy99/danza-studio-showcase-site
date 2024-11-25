@@ -70,6 +70,7 @@
 
 .nome {
     margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 input {
@@ -120,6 +121,9 @@ input {
         margin: 0
     }
     .card-body {
+        margin-left: 0;
+    }
+    .nome {
         margin-left: 0;
     }
 }
