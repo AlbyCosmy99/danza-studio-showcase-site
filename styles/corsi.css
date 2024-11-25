@@ -1,10 +1,10 @@
 .card {
     border: black;
-    gap: 2rem;
 }
 
 .card-body, .card {
     background-color: black;
+    margin-left: 2rem;
 }
 
 h2 {
