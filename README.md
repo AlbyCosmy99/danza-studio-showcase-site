@@ -24,4 +24,4 @@ The website presents the dance school and its activities, allowing visitors to:
 ---
 
 ## 📸 Screenshots
-*(You can insert screenshots here to preview the website – homepage, courses, contact form, etc.)*
+![screenshot](assets/screenshots/screenshot1.png)
