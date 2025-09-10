@@ -1,4 +1,4 @@
-# 💃 Danza Studio – Website
+# 💃 Danza Studio – Showcase Website
 
 This project is a responsive website developed in early 2024 for **Danza Studio Monselice**, a dance school in Padua, Italy.  
 It was created as part of a **university assignment** for a client (Elena).
